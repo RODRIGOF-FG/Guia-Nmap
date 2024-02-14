@@ -67,6 +67,6 @@ nmap -p [Rango de Puertos] 10.10.11.249
 
 ```
 
-- Ejemplo
+- Ejemplo:
 
 ![Escaneo_especifico](file/1.4.png)
