@@ -19,7 +19,9 @@ Nmap intenta determinar el sistema operativo del host objetivo basándose en las
 El escaneo de vulnerabilidades implica la identificación de posibles debilidades en los sistemas objetivo que podrían ser explotadas por un atacante. Mientras que Nmap en sí mismo __no es una herramienta de detección de vulnerabilidades__, puede proporcionar información útil que puede ser utilizada en conjunto con otras herramientas para realizar análisis de vulnerabilidades. Esto con ayuda de detección de versiones de servicios y la ejecución de scripts, ya que pueden utilizarse para realizar pruebas adicionales de seguridad, como la detección de servicios vulnerables o la exploración de configuraciones de seguridad deficientes.
 
 
-
+### Comandos Básicos de Nmap
+- Descubrir dispositivos conectados en una red
+  d
 
 
 
