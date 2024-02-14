@@ -33,5 +33,6 @@ nmap 10.10.11.249
 
 ```
 - Resultados:
+<br>
 ![Escaneo_basico](file/1.1.png)
 
