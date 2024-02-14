@@ -48,3 +48,15 @@ nmap -p- 10.10.11.249
 <br>
 
 ![Escaneo_todos_los_puertos](file/1.2.png)
+
+- Escaneo de un Puerto Específico
+```cmd
+nmap -p[Puerto] 10.10.11.249
+
+```
+
+- Ejemplo:
+
+<br>
+
+![Escaneo_especifico](file/1.3.png)
