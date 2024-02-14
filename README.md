@@ -70,3 +70,15 @@ nmap -p [Rango de Puertos] 10.10.11.249
 - Ejemplo:
 
 ![Escaneo_especifico](file/1.4.png)
+
+- Escaneo Agresivo
+```cmd
+nmap -A 10.10.11.249
+
+```
+
+- Ejemplo:
+
+<br>
+
+![Escaneo_agresivo](file/1.5.png)
