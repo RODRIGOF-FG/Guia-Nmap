@@ -60,3 +60,13 @@ nmap -p [Puerto] 10.10.11.249
 <br>
 
 ![Escaneo_especifico](file/1.3.png)
+
+- Escaneo de un Rango de Puertos
+```cmd
+nmap -p [Rango de Puertos] 10.10.11.249
+
+```
+
+- Ejemplo
+
+![Escaneo_especifico](file/1.4.png)
