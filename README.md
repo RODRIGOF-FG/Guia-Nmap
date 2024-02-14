@@ -25,7 +25,13 @@ El escaneo de vulnerabilidades implica la identificación de posibles debilidade
 nmap -sn 192.168.10.0/24
 
 ```
-Este comando escaneará todas las direcciones IP dentro de la subred 192.168.1.0/24 y mostrará qué dispositivos están activos y disponibles en la red.
+Este comando escaneará todas las direcciones IP dentro de la subred 192.168.10.0/24 y mostrará qué dispositivos están activos y disponibles en la red.
 
+- Escaneo Básico de Puertos de un Host
+```cmd
+nmap 10.10.11.249
 
+```
+- Resultados:
+![Escaneo_basico](file/1.1.png)
 
