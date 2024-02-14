@@ -38,3 +38,13 @@ nmap 10.10.11.249
 
 ![Escaneo_basico](file/1.1.png)
 
+- Escaneo a todos los puertos TCP de un Host
+```cmd
+nmap -p- 10.10.11.249
+
+```
+- Resultados
+
+<br>
+
+![Escaneo_todos_los_puertos](file/1.2.png)
