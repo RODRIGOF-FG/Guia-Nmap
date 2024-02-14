@@ -21,7 +21,10 @@ El escaneo de vulnerabilidades implica la identificación de posibles debilidade
 
 ### Comandos Básicos de Nmap
 - Descubrir dispositivos conectados en una red
-  d
+```cmd
+nmap -sn 192.168.10.0/24
+
+```
 
 
 
