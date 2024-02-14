@@ -13,5 +13,8 @@ El descubrimiento de hosts es el proceso de identificar qué dispositivos están
 El escaneo de puertos implica la identificación de qué puertos están abiertos en un host objetivo. Los puertos abiertos pueden indicar la presencia de servicios en ejecución y son puntos de entrada potenciales para ataques.
 - Detección de Servicios:
 La detección de servicios implica identificar qué servicios específicos están disponibles en los puertos abiertos de un host. Nmap puede realizar la detección de servicios utilizando técnicas como la consulta de puertos específicos
-- Detección de Sistemas Operativos
-- Escaneo de Vulnerabilidades
+- Detección de Sistemas Operativos:
+Nmap intenta determinar el sistema operativo del host objetivo basándose en las respuestas recibidas durante el escaneo.
+- Escaneo de Vulnerabilidades:
+El escaneo de vulnerabilidades implica la identificación de posibles debilidades en los sistemas objetivo que podrían ser explotadas por un atacante. Mientras que Nmap en sí mismo no es una herramienta de detección de vulnerabilidades, puede proporcionar información útil que puede ser utilizada en conjunto con otras herramientas para realizar análisis de vulnerabilidades.Esto con ayuda de deteccion de versiones de servicios y la ejecucion de script ya que pueden utilizarse para realizar pruebas adicionales de seguridad, como la detección de servicios vulnerables o la exploración de configuraciones de seguridad deficientes.
+
