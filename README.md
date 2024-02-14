@@ -51,7 +51,7 @@ nmap -p- 10.10.11.249
 
 - Escaneo de un Puerto Específico
 ```cmd
-nmap -p[Puerto] 10.10.11.249
+nmap -p [Puerto] 10.10.11.249
 
 ```
 
