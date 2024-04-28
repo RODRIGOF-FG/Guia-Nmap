@@ -127,4 +127,37 @@ nmap -sT 10.10.11.249
 
 
 
+- Parametro -T4 
+
+```cmd
+nmap -T4 10.10.11.249
+
+```
+
+- Ejemplo:
+
+<br>
+
+![Escaneo_Servicios](file/1.9.png)
+
+
+
+- Escaneo de tipo SYN 
+
+```cmd
+nmap -sS 10.10.11.249
+
+```
+
+- Ejemplo:
+
+<br>
+
+![Escaneo_Servicios](file/1.10.png)
+
+
+
+
+
+
 
