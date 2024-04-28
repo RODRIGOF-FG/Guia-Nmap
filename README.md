@@ -95,3 +95,36 @@ nmap -O 10.10.11.249
 <br>
 
 ![Escaneo_SO](file/1.6.png)
+
+
+
+- Identificar versiones de los servicios
+```cmd
+nmap -sV 10.10.11.249
+
+```
+
+- Ejemplo:
+
+<br>
+
+![Escaneo_Servicios](file/1.7.png)
+
+
+- Escaneo de tipo TCP
+
+```cmd
+nmap -sT 10.10.11.249
+
+```
+
+- Ejemplo:
+
+<br>
+
+![Escaneo_Servicios](file/1.8.png)
+
+
+
+
+
