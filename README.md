@@ -28,6 +28,7 @@ nmap -sn 192.168.10.0/24
 Este comando escaneará todas las direcciones IP dentro de la subred 192.168.10.0/24 y mostrará qué dispositivos están activos y disponibles en la red.
 
 - Escaneo Básico de Puertos de un Host
+
 ```cmd
 nmap 10.10.11.249
 
@@ -37,6 +38,9 @@ nmap 10.10.11.249
 <br>
 
 ![Escaneo_basico](file/1.1.png)
+
+Este comando realiza un escaneo de puertos básico en el host con la dirección IP 10.10.11.249.
+
 
 - Escaneo a todos los puertos TCP de un Host
 ```cmd
@@ -48,6 +52,9 @@ nmap -p- 10.10.11.249
 <br>
 
 ![Escaneo_todos_los_puertos](file/1.2.png)
+
+Este comando realiza un escaneo en todos los puertos del host con la dirección IP 10.10.11.249.
+
 
 - Escaneo de un Puerto Específico
 ```cmd
@@ -61,6 +68,9 @@ nmap -p [Puerto] 10.10.11.249
 
 ![Escaneo_especifico](file/1.3.png)
 
+Este comando realiza un escaneo en un puerto específico en el host con la dirección IP 10.10.11.249.
+
+
 - Escaneo de un Rango de Puertos
 ```cmd
 nmap -p [Rango de Puertos] 10.10.11.249
@@ -70,6 +80,11 @@ nmap -p [Rango de Puertos] 10.10.11.249
 - Ejemplo:
 
 ![Escaneo_rango_p](file/1.4.png)
+
+
+Este comando realiza un escaneo en un rango de puertos en el host con la dirección IP 10.10.11.249.
+
+
 
 - Escaneo Agresivo
 ```cmd
@@ -83,6 +98,8 @@ nmap -A 10.10.11.249
 
 ![Escaneo_agresivo](file/1.5.png)
 
+Este comando realiza un escaneo agresivo en el host con la dirección IP 10.10.11.249, que incluye detección de servicios, detección de sistemas operativos y scripts de detección de vulnerabilidades.
+
 
 - Identificar Sistema Operativo
 ```cmd
@@ -95,6 +112,8 @@ nmap -O 10.10.11.249
 <br>
 
 ![Escaneo_SO](file/1.6.png)
+
+Este comando intenta identificar el sistema operativo del host con la dirección IP 10.10.11.249.
 
 
 
@@ -111,6 +130,8 @@ nmap -sV 10.10.11.249
 ![Escaneo_Servicios](file/1.7.png)
 
 
+Este comando intenta identificar las versiones de los servicios que se están ejecutando en el host con la dirección IP 10.10.11.249.
+
 - Escaneo de tipo TCP
 
 ```cmd
@@ -124,6 +145,8 @@ nmap -sT 10.10.11.249
 
 ![Escaneo_TCP](file/1.8.png)
 
+
+Este comando realiza un escaneo de tipo TCP en el host con la dirección IP 10.10.11.249.
 
 
 
@@ -141,6 +164,7 @@ nmap -T4 10.10.11.249
 ![Escaneo_T](file/1.9.png)
 
 
+Este comando realiza un escaneo con una velocidad agresiva en el host con la dirección IP 10.10.11.249. El parámetro -T4 ajusta la velocidad de escaneo para que sea más rápida que la configuración predeterminada. Nmap tiene varias opciones de temporización (-T0 a -T5), donde -T5 es el más agresivo y -T0 es el más lento. El uso de -T4 indica que se debe utilizar una velocidad de escaneo más rápida, lo que puede acelerar el proceso de escaneo pero también aumentar la posibilidad de detección por sistemas de seguridad en la red.
 
 - Escaneo de tipo SYN 
 
@@ -156,6 +180,10 @@ nmap -sS 10.10.11.249
 ![Escaneo_SYN](file/1.10.png)
 
 
+Este comando realiza un escaneo de tipo SYN en el host con la dirección IP 10.10.11.249.
+
+
+
 - Realizar un escaneo y guardar los resultados en un archivo llamado escaneo.txt
 
 ```cmd
@@ -167,15 +195,21 @@ nmap -oN escaneo.txt 10.10.11.249
 
 <br>
 
-![Escaneo_SYN](file/1.11.png)
+![Escaneo_on](file/1.11.png)
+
+Este comando realiza un escaneo en el host con la dirección IP 10.10.11.249 y guarda los resultados en un archivo llamado escaneo.txt.
+
+
 
 
 - Abrir archivo en la terminal con el comando cat
 
 <br>
 
-![Escaneo_SYN](file/1.12.png)
+![Escaneo_cat](file/1.12.png)
 
+
+Este comando muestra el contenido del archivo escaneo.txt en la terminal.
 
 
 
