@@ -122,7 +122,7 @@ nmap -sT 10.10.11.249
 
 <br>
 
-![Escaneo_Servicios](file/1.8.png)
+![Escaneo_TCP](file/1.8.png)
 
 
 
@@ -138,7 +138,7 @@ nmap -T4 10.10.11.249
 
 <br>
 
-![Escaneo_Servicios](file/1.9.png)
+![Escaneo_T](file/1.9.png)
 
 
 
@@ -153,7 +153,28 @@ nmap -sS 10.10.11.249
 
 <br>
 
-![Escaneo_Servicios](file/1.10.png)
+![Escaneo_SYN](file/1.10.png)
+
+
+- Realizar un escaneo y guardar los resultados en un archivo llamado escaneo.txt
+
+```cmd
+nmap -oN escaneo.txt 10.10.11.249
+
+```
+
+- Ejemplo:
+
+<br>
+
+![Escaneo_SYN](file/1.11.png)
+
+
+- Abrir archivo en la terminal con el comando cat
+
+<br>
+
+![Escaneo_SYN](file/1.12.png)
 
 
 
