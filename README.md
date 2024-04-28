@@ -1,5 +1,5 @@
 # Guia Nmap
-
+![nmap](file/nmap.jpg)
 ### Introduccion
 En esta guía, te introduciré a una herramienta fundamental: Nmap, que te ayudará a explorar y proteger redes, ya sea que estés dando tus primeros pasos en el mundo de la Ciberseguridad o estés buscando mejorar tus habilidades.
 
